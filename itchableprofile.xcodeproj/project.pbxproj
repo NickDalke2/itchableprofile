@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B163B751CD15371004E9210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B163B741CD15371004E9210 /* AppDelegate.swift */; };
+		8B163B771CD15371004E9210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B163B761CD15371004E9210 /* ViewController.swift */; };
+		8B163B7A1CD15371004E9210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B163B781CD15371004E9210 /* Main.storyboard */; };
+		8B163B7C1CD15371004E9210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B163B7B1CD15371004E9210 /* Assets.xcassets */; };
+		8B163B7F1CD15371004E9210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B163B7D1CD15371004E9210 /* LaunchScreen.storyboard */; };
+		8B163B8A1CD15371004E9210 /* itchableprofileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B163B891CD15371004E9210 /* itchableprofileTests.swift */; };
+		8B163B951CD15371004E9210 /* itchableprofileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B163B941CD15371004E9210 /* itchableprofileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B163B861CD15371004E9210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B163B691CD15370004E9210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B163B701CD15370004E9210;
+			remoteInfo = itchableprofile;
+		};
+		8B163B911CD15371004E9210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B163B691CD15370004E9210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B163B701CD15370004E9210;
+			remoteInfo = itchableprofile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B163B711CD15371004E9210 /* itchableprofile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itchableprofile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B163B741CD15371004E9210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B163B761CD15371004E9210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B163B791CD15371004E9210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B163B7B1CD15371004E9210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B163B7E1CD15371004E9210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B163B801CD15371004E9210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B163B851CD15371004E9210 /* itchableprofileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itchableprofileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B163B891CD15371004E9210 /* itchableprofileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itchableprofileTests.swift; sourceTree = "<group>"; };
+		8B163B8B1CD15371004E9210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B163B901CD15371004E9210 /* itchableprofileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itchableprofileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B163B941CD15371004E9210 /* itchableprofileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itchableprofileUITests.swift; sourceTree = "<group>"; };
+		8B163B961CD15371004E9210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B163B6E1CD15370004E9210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B163B821CD15371004E9210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B163B8D1CD15371004E9210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B163B681CD15370004E9210 = {
+			isa = PBXGroup;
+			children = (
+				8B163B731CD15371004E9210 /* itchableprofile */,
+				8B163B881CD15371004E9210 /* itchableprofileTests */,
+				8B163B931CD15371004E9210 /* itchableprofileUITests */,
+				8B163B721CD15371004E9210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B163B721CD15371004E9210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B163B711CD15371004E9210 /* itchableprofile.app */,
+				8B163B851CD15371004E9210 /* itchableprofileTests.xctest */,
+				8B163B901CD15371004E9210 /* itchableprofileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B163B731CD15371004E9210 /* itchableprofile */ = {
+			isa = PBXGroup;
+			children = (
+				8B163B741CD15371004E9210 /* AppDelegate.swift */,
+				8B163B761CD15371004E9210 /* ViewController.swift */,
+				8B163B781CD15371004E9210 /* Main.storyboard */,
+				8B163B7B1CD15371004E9210 /* Assets.xcassets */,
+				8B163B7D1CD15371004E9210 /* LaunchScreen.storyboard */,
+				8B163B801CD15371004E9210 /* Info.plist */,
+			);
+			path = itchableprofile;
+			sourceTree = "<group>";
+		};
+		8B163B881CD15371004E9210 /* itchableprofileTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B163B891CD15371004E9210 /* itchableprofileTests.swift */,
+				8B163B8B1CD15371004E9210 /* Info.plist */,
+			);
+			path = itchableprofileTests;
+			sourceTree = "<group>";
+		};
+		8B163B931CD15371004E9210 /* itchableprofileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B163B941CD15371004E9210 /* itchableprofileUITests.swift */,
+				8B163B961CD15371004E9210 /* Info.plist */,
+			);
+			path = itchableprofileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B163B701CD15370004E9210 /* itchableprofile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B163B991CD15371004E9210 /* Build configuration list for PBXNativeTarget "itchableprofile" */;
+			buildPhases = (
+				8B163B6D1CD15370004E9210 /* Sources */,
+				8B163B6E1CD15370004E9210 /* Frameworks */,
+				8B163B6F1CD15370004E9210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = itchableprofile;
+			productName = itchableprofile;
+			productReference = 8B163B711CD15371004E9210 /* itchableprofile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B163B841CD15371004E9210 /* itchableprofileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B163B9C1CD15371004E9210 /* Build configuration list for PBXNativeTarget "itchableprofileTests" */;
+			buildPhases = (
+				8B163B811CD15371004E9210 /* Sources */,
+				8B163B821CD15371004E9210 /* Frameworks */,
+				8B163B831CD15371004E9210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B163B871CD15371004E9210 /* PBXTargetDependency */,
+			);
+			name = itchableprofileTests;
+			productName = itchableprofileTests;
+			productReference = 8B163B851CD15371004E9210 /* itchableprofileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B163B8F1CD15371004E9210 /* itchableprofileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B163B9F1CD15371004E9210 /* Build configuration list for PBXNativeTarget "itchableprofileUITests" */;
+			buildPhases = (
+				8B163B8C1CD15371004E9210 /* Sources */,
+				8B163B8D1CD15371004E9210 /* Frameworks */,
+				8B163B8E1CD15371004E9210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B163B921CD15371004E9210 /* PBXTargetDependency */,
+			);
+			name = itchableprofileUITests;
+			productName = itchableprofileUITests;
+			productReference = 8B163B901CD15371004E9210 /* itchableprofileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B163B691CD15370004E9210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nicholas  Dalke";
+				TargetAttributes = {
+					8B163B701CD15370004E9210 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8B163B841CD15371004E9210 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8B163B701CD15370004E9210;
+					};
+					8B163B8F1CD15371004E9210 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8B163B701CD15370004E9210;
+					};
+				};
+			};
+			buildConfigurationList = 8B163B6C1CD15370004E9210 /* Build configuration list for PBXProject "itchableprofile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B163B681CD15370004E9210;
+			productRefGroup = 8B163B721CD15371004E9210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B163B701CD15370004E9210 /* itchableprofile */,
+				8B163B841CD15371004E9210 /* itchableprofileTests */,
+				8B163B8F1CD15371004E9210 /* itchableprofileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B163B6F1CD15370004E9210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B163B7F1CD15371004E9210 /* LaunchScreen.storyboard in Resources */,
+				8B163B7C1CD15371004E9210 /* Assets.xcassets in Resources */,
+				8B163B7A1CD15371004E9210 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B163B831CD15371004E9210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B163B8E1CD15371004E9210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B163B6D1CD15370004E9210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B163B771CD15371004E9210 /* ViewController.swift in Sources */,
+				8B163B751CD15371004E9210 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B163B811CD15371004E9210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B163B8A1CD15371004E9210 /* itchableprofileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B163B8C1CD15371004E9210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B163B951CD15371004E9210 /* itchableprofileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B163B871CD15371004E9210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B163B701CD15370004E9210 /* itchableprofile */;
+			targetProxy = 8B163B861CD15371004E9210 /* PBXContainerItemProxy */;
+		};
+		8B163B921CD15371004E9210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B163B701CD15370004E9210 /* itchableprofile */;
+			targetProxy = 8B163B911CD15371004E9210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B163B781CD15371004E9210 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B163B791CD15371004E9210 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B163B7D1CD15371004E9210 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B163B7E1CD15371004E9210 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B163B971CD15371004E9210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B163B981CD15371004E9210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B163B9A1CD15371004E9210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = itchableprofile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhealth.ios.itchableprofile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B163B9B1CD15371004E9210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = itchableprofile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhealth.ios.itchableprofile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B163B9D1CD15371004E9210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = itchableprofileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhealth.ios.itchableprofileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/itchableprofile.app/itchableprofile";
+			};
+			name = Debug;
+		};
+		8B163B9E1CD15371004E9210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = itchableprofileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhealth.ios.itchableprofileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/itchableprofile.app/itchableprofile";
+			};
+			name = Release;
+		};
+		8B163BA01CD15371004E9210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = itchableprofileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhealth.ios.itchableprofileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = itchableprofile;
+			};
+			name = Debug;
+		};
+		8B163BA11CD15371004E9210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = itchableprofileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myhealth.ios.itchableprofileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = itchableprofile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B163B6C1CD15370004E9210 /* Build configuration list for PBXProject "itchableprofile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B163B971CD15371004E9210 /* Debug */,
+				8B163B981CD15371004E9210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B163B991CD15371004E9210 /* Build configuration list for PBXNativeTarget "itchableprofile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B163B9A1CD15371004E9210 /* Debug */,
+				8B163B9B1CD15371004E9210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B163B9C1CD15371004E9210 /* Build configuration list for PBXNativeTarget "itchableprofileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B163B9D1CD15371004E9210 /* Debug */,
+				8B163B9E1CD15371004E9210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B163B9F1CD15371004E9210 /* Build configuration list for PBXNativeTarget "itchableprofileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B163BA01CD15371004E9210 /* Debug */,
+				8B163BA11CD15371004E9210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B163B691CD15370004E9210 /* Project object */;
+}
