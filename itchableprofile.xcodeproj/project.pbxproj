@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267439D6387176C2B389ACD2 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE35299B42343DDE2415D65 /* Pods.framework */; };
+		8B00E6501CD7E94E00F5B0B0 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B00E64F1CD7E94E00F5B0B0 /* Media.xcassets */; };
 		8B163B751CD15371004E9210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B163B741CD15371004E9210 /* AppDelegate.swift */; };
 		8B163B771CD15371004E9210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B163B761CD15371004E9210 /* ViewController.swift */; };
-		8B163B7A1CD15371004E9210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B163B781CD15371004E9210 /* Main.storyboard */; };
 		8B163B7C1CD15371004E9210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B163B7B1CD15371004E9210 /* Assets.xcassets */; };
-		8B163B7F1CD15371004E9210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B163B7D1CD15371004E9210 /* LaunchScreen.storyboard */; };
 		8B163B8A1CD15371004E9210 /* itchableprofileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B163B891CD15371004E9210 /* itchableprofileTests.swift */; };
 		8B163B951CD15371004E9210 /* itchableprofileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B163B941CD15371004E9210 /* itchableprofileUITests.swift */; };
+		8B163BA31CD1539D004E9210 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B163BA21CD1539D004E9210 /* Profile.swift */; };
+		8B6E10341D090ADB0080C41E /* editProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6E10331D090ADB0080C41E /* editProfile.swift */; };
+		8B6E10371D0CA3D80080C41E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6E10351D0CA3D80080C41E /* FBSDKCoreKit.framework */; };
+		8B6E10381D0CA3D80080C41E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6E10361D0CA3D80080C41E /* FBSDKLoginKit.framework */; };
+		8B6E104E1D0CB8210080C41E /* ObjectiveCFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6E104D1D0CB8210080C41E /* ObjectiveCFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DE35299B42343DDE2415D65 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		378E026740FE73961848E2B8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4E013120BEF668C89E4B5546 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8B00E64F1CD7E94E00F5B0B0 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		8B163B711CD15371004E9210 /* itchableprofile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itchableprofile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B163B741CD15371004E9210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B163B761CD15371004E9210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8B163B791CD15371004E9210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B163B7B1CD15371004E9210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8B163B7E1CD15371004E9210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B163B801CD15371004E9210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B163B851CD15371004E9210 /* itchableprofileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itchableprofileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B163B891CD15371004E9210 /* itchableprofileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itchableprofileTests.swift; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		8B163B901CD15371004E9210 /* itchableprofileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itchableprofileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B163B941CD15371004E9210 /* itchableprofileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itchableprofileUITests.swift; sourceTree = "<group>"; };
 		8B163B961CD15371004E9210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B163BA21CD1539D004E9210 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		8B6E10331D090ADB0080C41E /* editProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editProfile.swift; sourceTree = "<group>"; };
+		8B6E10351D0CA3D80080C41E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = itchableprofile/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		8B6E10361D0CA3D80080C41E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = itchableprofile/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		8B6E104C1D0CB8210080C41E /* itchableprofile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "itchableprofile-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B6E104D1D0CB8210080C41E /* ObjectiveCFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCFile.m; sourceTree = "<group>"; };
+		8B6E104F1D0CB8C30080C41E /* ObjectiveCFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCFile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267439D6387176C2B389ACD2 /* Pods.framework in Frameworks */,
+				8B6E10371D0CA3D80080C41E /* FBSDKCoreKit.framework in Frameworks */,
+				8B6E10381D0CA3D80080C41E /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57880F7A3FCB2D560F877FEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				378E026740FE73961848E2B8 /* Pods.debug.xcconfig */,
+				4E013120BEF668C89E4B5546 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BB185F1998515F0664FB760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B6E10351D0CA3D80080C41E /* FBSDKCoreKit.framework */,
+				8B6E10361D0CA3D80080C41E /* FBSDKLoginKit.framework */,
+				0DE35299B42343DDE2415D65 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B163B681CD15370004E9210 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,8 @@
 				8B163B881CD15371004E9210 /* itchableprofileTests */,
 				8B163B931CD15371004E9210 /* itchableprofileUITests */,
 				8B163B721CD15371004E9210 /* Products */,
+				57880F7A3FCB2D560F877FEA /* Pods */,
+				5BB185F1998515F0664FB760 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +137,14 @@
 			children = (
 				8B163B741CD15371004E9210 /* AppDelegate.swift */,
 				8B163B761CD15371004E9210 /* ViewController.swift */,
-				8B163B781CD15371004E9210 /* Main.storyboard */,
+				8B163BA21CD1539D004E9210 /* Profile.swift */,
+				8B6E10331D090ADB0080C41E /* editProfile.swift */,
 				8B163B7B1CD15371004E9210 /* Assets.xcassets */,
-				8B163B7D1CD15371004E9210 /* LaunchScreen.storyboard */,
+				8B00E64F1CD7E94E00F5B0B0 /* Media.xcassets */,
 				8B163B801CD15371004E9210 /* Info.plist */,
+				8B6E104D1D0CB8210080C41E /* ObjectiveCFile.m */,
+				8B6E104C1D0CB8210080C41E /* itchableprofile-Bridging-Header.h */,
+				8B6E104F1D0CB8C30080C41E /* ObjectiveCFile.h */,
 			);
 			path = itchableprofile;
 			sourceTree = "<group>";
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B163B991CD15371004E9210 /* Build configuration list for PBXNativeTarget "itchableprofile" */;
 			buildPhases = (
+				0E4E5F49B17CEADD0EDFDE6C /* Check Pods Manifest.lock */,
 				8B163B6D1CD15370004E9210 /* Sources */,
 				8B163B6E1CD15370004E9210 /* Frameworks */,
 				8B163B6F1CD15370004E9210 /* Resources */,
+				B9EB401B0A0DF387817D3C12 /* Embed Pods Frameworks */,
+				CF1CD472641DAC4D1CA4F8BB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +274,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B163B7F1CD15371004E9210 /* LaunchScreen.storyboard in Resources */,
+				8B00E6501CD7E94E00F5B0B0 /* Media.xcassets in Resources */,
 				8B163B7C1CD15371004E9210 /* Assets.xcassets in Resources */,
-				8B163B7A1CD15371004E9210 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +295,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E4E5F49B17CEADD0EDFDE6C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9EB401B0A0DF387817D3C12 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1CD472641DAC4D1CA4F8BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B163B6D1CD15370004E9210 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8B163B771CD15371004E9210 /* ViewController.swift in Sources */,
+				8B163BA31CD1539D004E9210 /* Profile.swift in Sources */,
+				8B6E104E1D0CB8210080C41E /* ObjectiveCFile.m in Sources */,
 				8B163B751CD15371004E9210 /* AppDelegate.swift in Sources */,
+				8B6E10341D090ADB0080C41E /* editProfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +386,6 @@
 			targetProxy = 8B163B911CD15371004E9210 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8B163B781CD15371004E9210 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B163B791CD15371004E9210 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8B163B7D1CD15371004E9210 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B163B7E1CD15371004E9210 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8B163B971CD15371004E9210 /* Debug */ = {
@@ -399,23 +475,38 @@
 		};
 		8B163B9A1CD15371004E9210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378E026740FE73961848E2B8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/itchableprofile",
+				);
 				INFOPLIST_FILE = itchableprofile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = myhealth.ios.itchableprofile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "itchableprofile/itchableprofile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8B163B9B1CD15371004E9210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E013120BEF668C89E4B5546 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/itchableprofile",
+				);
 				INFOPLIST_FILE = itchableprofile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = myhealth.ios.itchableprofile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "itchableprofile/itchableprofile-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +575,7 @@
 				8B163B9B1CD15371004E9210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B163B9C1CD15371004E9210 /* Build configuration list for PBXNativeTarget "itchableprofileTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +584,7 @@
 				8B163B9E1CD15371004E9210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B163B9F1CD15371004E9210 /* Build configuration list for PBXNativeTarget "itchableprofileUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +593,7 @@
 				8B163BA11CD15371004E9210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
